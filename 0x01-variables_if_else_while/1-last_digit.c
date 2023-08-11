@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
-* main_ the program that  print the last digit of a random number
+* main-the program that  print the last digit of a random number
 *generated and determines whether it is greater than 5, less than 6, or 0.
 *
 * Return: Always 0.
