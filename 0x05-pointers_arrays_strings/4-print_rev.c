@@ -5,6 +5,7 @@
  * @s: string
  * return: 0
  */
+
 void print_rev(char *s)
 {
 	char *s;
