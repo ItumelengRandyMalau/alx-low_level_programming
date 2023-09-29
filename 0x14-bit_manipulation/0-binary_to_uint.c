@@ -16,9 +16,9 @@ unsigned int binary_to_uint(const char *b)
 	{
 
 		if (*b == '1')
-			num = (num << 1) | 1;
+			num = (num << 1) | (*b - '0');
 		else if (*b == '0')
-			num = (num << 1) | 0;
+			num = (num << 1) | (*b - '0');
 
 		else
 
