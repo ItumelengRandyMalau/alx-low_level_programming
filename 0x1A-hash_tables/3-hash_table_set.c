@@ -30,7 +30,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		if (!strcmp(key, bug->key))
 		{
 			free(bug->value);
-			bug->value = value-copy;
+			bug->value = value_copy;
 			return (1);
 		}
 		bug = bug->next;
